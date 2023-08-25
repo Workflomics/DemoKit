@@ -1,0 +1,9 @@
+input1:  # type 'File'
+    class: File
+    path: https://raw.githubusercontent.com/Workflomics/containers/docker/data/inputs/workflows/example1/2021-10-8_Ecoli.mzML #mzML
+    format: http://edamontology.org/format_3244
+input2:  # type 'File'
+    class: File
+    path: https://raw.githubusercontent.com/Workflomics/containers/docker/data/inputs/workflows/example1/up00000062.fasta #FASTA
+    format: http://edamontology.org/format_1929
+
