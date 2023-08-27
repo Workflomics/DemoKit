@@ -59,8 +59,14 @@ This local storage of workflow files ensures that you have a record of your gene
 
 After generating and downloading locally the workflows (workflow .cwl files as well as the .yml input file), you can execute them locally. To do so, you can use the following command:
 
+**Linux/Mac**
 ```bash
 docker run -v ./data:/data  workflomics/container:v1.0 cwl-runner --leave-tmpdir --outdir /data/output /data/workflows/example/workflow.cwl /data/workflows/example/input.yml
+```
+
+**Windows**
+```bash
+docker run -v .\data:/data  workflomics/container:v1.0 cwl-runner --leave-tmpdir --outdir /data/output /data/workflows/example/workflow.cwl /data/workflows/example/input.yml
 ```
 
 The above command will execute an example of a workflow (`workflow.cwl`) using the input files specified `input.yml` and will save the output files in the `output` folder.
