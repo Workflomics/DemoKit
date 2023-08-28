@@ -27,7 +27,7 @@ steps:
       mzRecal_in_2: XTandem1/XTandem_out_1
     out: [mzRecal_out_1]
   Comet3:
-    run: /data/examples/Comet.cwl #https://raw.githubusercontent.com/Workflomics/containers/docker/cwl/tools/Comet/Comet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/containers/docker/cwl/tools/Comet/Comet.cwl
     in:
       Comet_in_1: mzRecal2/mzRecal_out_1
       Comet_in_2: input2

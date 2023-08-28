@@ -15,7 +15,7 @@ inputs:
     format: "http://edamontology.org/format_1929" # FASTA
 steps:
   Comet1:
-    run: /data/examples/Comet.cwl #https://raw.githubusercontent.com/Workflomics/containers/docker/cwl/tools/Comet/Comet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/containers/docker/cwl/tools/Comet/Comet.cwl
     in:
       Comet_in_1: input1
       Comet_in_2: input2

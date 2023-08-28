@@ -15,7 +15,7 @@ inputs:
     format: "http://edamontology.org/format_1929" # FASTA
 steps:
   Comet1:
-    run: /data/examples/Comet.cwl #https://raw.githubusercontent.com/Workflomics/containers/docker/cwl/tools/Comet/Comet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/containers/docker/cwl/tools/Comet/Comet.cwl
     in:
       Comet_in_1: input1
       Comet_in_2: input2
@@ -32,7 +32,7 @@ steps:
       mzRecal_in_2: idconvert2/idconvert_out_1
     out: [mzRecal_out_1]
   Comet4:
-    run: /data/examples/Comet.cwl #https://raw.githubusercontent.com/Workflomics/containers/docker/cwl/tools/Comet/Comet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/containers/docker/cwl/tools/Comet/Comet.cwl
     in:
       Comet_in_1: mzRecal3/mzRecal_out_1
       Comet_in_2: input2

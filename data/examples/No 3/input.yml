@@ -1,16 +1,16 @@
 input1:
   class: File
   format: "http://edamontology.org/format_3244" # mzML
-  path: set_full_path_to_the_file_with_extension_here
+  path: https://raw.githubusercontent.com/Workflomics/DemoKit/main/data/inputs/2021-10-8_Ecoli.mzML #mzML
 input2:
   class: File
   format: "http://edamontology.org/format_1929" # FASTA
-  path: set_full_path_to_the_file_with_extension_here
+  path: https://raw.githubusercontent.com/Workflomics/DemoKit/main/data/inputs/up00000062.fasta #FASTA
 input3:
   class: File
   format: "http://edamontology.org/format_2196_plain" # OBO format_p
-  path: set_full_path_to_the_file_with_extension_here/go.obo
+  path: https://raw.githubusercontent.com/Workflomics/DemoKit/main/data/inputs/go.obo
 input4:
   class: File
   format: "http://edamontology.org/format_3475_plain" # TSV_p
-  path: set_full_path_to_the_file_with_extension_here/goa_human.gaf
+  path: https://raw.githubusercontent.com/Workflomics/DemoKit/main/data/inputs/goa_human.gaf
