@@ -57,11 +57,11 @@ This local storage of workflow files ensures that you have a record of your gene
 
 ### Local Execution
 
-After generating and downloading locally the workflows (workflow .cwl files as well as the .yml input file), you can execute them locally. To do so, you can use the following command:
+After generating and downloading locally the workflows (workflow .cwl files as well as the .yml input file), you can execute them locally. To do so, you can use the following script (tested on non-Windows machines):
 
-Execute the `run.sh` script.
+Execute the `run.sh` script, where the provided scripts are available at `/data/workflows/example/workflow.cwl` and `/data/workflows/example/input.yml`.
 
-or 
+or run the following command:
 
 **Linux/Mac**
 ```bash
