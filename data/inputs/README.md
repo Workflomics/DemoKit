@@ -1,6 +1,4 @@
-# Project Data Overview
-
-This repository contains several data files that are used to run and test CWL (Common Workflow Language) tools in Workflomics projects. 
+This directory contains several data files that are used to run and test CWL (Common Workflow Language) tools in Workflomics projects. 
 Below is a brief description of each file and its content.
 
 ## Data Files
