@@ -10,10 +10,10 @@ Below is a brief description of each file and its content.
   This file is an mzML format mass spectrometry data file derived from *E. coli* samples.
 
 - **small.fasta**  
-  A sample FASTA file containing protein sequences, corresponding to the **small.mzML** content.
+  A sample FASTA file containing protein sequences (corresponds to **small.mzML**).
 
 - **up00000062.fasta**  
-  A larger FASTA file containing the protein sequences from the *E. coli* reference proteome. 
+  A larger FASTA file containing the protein sequences from the *E. coli* reference proteome (corresponds to **2021-10-8_Ecoli.mzML**).
 
 - **go.obo**  
   An ontology file in OBO format containing the Gene Ontology (GO) terms and relationships. 
