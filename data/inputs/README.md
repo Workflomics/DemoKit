@@ -20,3 +20,6 @@ Below is a brief description of each file and its content.
 
 - **goa_human.gaf**  
   A Gene Association File (GAF) containing annotation information for human genes.
+
+- **msi-example.jpg**, **msi-example.png**, **msi-example.tiff**
+  An image file used in the MSI example workflow.
