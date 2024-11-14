@@ -22,4 +22,4 @@ Below is a brief description of each file and its content.
   A Gene Association File (GAF) containing annotation information for human genes.
 
 - **msi-example.jpg**, **msi-example.png**, **msi-example.tiff**
-  An image file used in the MSI example workflow.
+  An image file used in the MSI example workflow. This image is taken from SCiLS™ Lab, extracted from [MALDI Imaging datasets](https://www.bruker.com/en/applications/academia-life-science/imaging/maldi-imaging.html).
