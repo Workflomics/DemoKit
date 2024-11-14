@@ -32,7 +32,7 @@ Before you begin, make sure you have the following prerequisites installed:
    Assuming that you have **installed** and **started** (it must be running in the background) Docker Desktop, open a terminal and execute the following command to pull the Docker image:
 
    ```bash
-   docker pull workflomics/container:v1.0
+   docker pull docker.io/workflomics/container:v1.0
 
 2. **Clone This Repository:**
 
